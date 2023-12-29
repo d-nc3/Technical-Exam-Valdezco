@@ -1,0 +1,82 @@
+/* Add this to your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gil+Sans:wght@400;700&display=swap');
+
+.navbar-custom {
+  height: 80px; /* Adjust the height as needed */
+ 
+}
+.container-fluid{ 
+  background-color:#465f33;
+}
+/* src/styles.css (or your preferred CSS file) */
+
+.page-container {
+  align-items:center;
+  background-color:#465f33;
+  
+  font-size:20px;/* Add a black border at the bottom */
+
+}
+#basic-navbar-nav{
+  gap: 20px; 
+ color:white;
+}
+
+nav {
+  text-align:center;
+  height: 50px; 
+  font-family: "Prata", serif; 
+}
+
+
+
+.navbar-nav .nav-link  {
+  color: white !important; 
+  align-content: center;
+
+
+}
+
+/* Header.css */
+
+/* Adjust styles for Navbar.Brand */
+.navbar-brand {
+  color: white !important;  /* Text color */
+ 
+}
+
+.navbar-toggler {
+  order: 0; /* Set the order to 0 for both small and larger screens */
+}
+
+/* Adjust Navbar styles for top-left alignment */
+.navbar {
+  color:white;
+  @media (min-width: 768px) {
+    width: 100%; /* Full-width Navbar on larger screens */
+  }
+}
+
+.navbar-collapse {
+  justify-content: flex-start; /* Align Navbar items to the start */
+}
+
+.navbar-nav {
+  margin-left: auto; /* Push Navbar items to the right on larger screens */
+}
+
+/* Add styles for the hover effect */
+.navbar-nav .nav-link:hover {
+ color:white; /* Your desired hover background color */;
+}
+
+.logoName {
+  color:white;
+  background-color:#465f33;
+  display: flex;
+  flex-direction: row; /* Keep items in a row layout */
+  justify-content: center; /* Center items horizontally */
+  align-items: center;
+  padding: 20px; /* Add padding for better spacing */
+}

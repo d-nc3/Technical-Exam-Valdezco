@@ -1,0 +1,18 @@
+/* ServicesPage.css */
+.services-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .service-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
